@@ -24,7 +24,7 @@ class Solution {
                }
             // If it is a '*', check if the strings can be matched without the 
             // character i.e. set true if [i][j-2] is true.
-            // If not, check if the character matches with previous character and
+            // If not, check if the character matches with previous character in the pattern and
             // also if the cell right above is true.(this means the pattern matches
             // string till previous character and '*' can match both current and prev.)
                 if(p.charAt(j-1) == '*'){
